@@ -1,0 +1,10 @@
+200, addi, $t0, $zero, 100
+204, add, $s0, $t0, $t1
+208, addi, $s0, $s0, -4
+21C, addi, $s1, $zero, 100
+220, beq, $t0, $s1, 22C
+224, addi, $t0, $t0, 4
+228, add, $t2, $t2, $s0
+22C, sub, $s2, $s0, $s1
+230, sub, $s1, $s1, $t0
+234, sub, $s0, $s0, $t0
